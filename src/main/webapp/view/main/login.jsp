@@ -8,9 +8,12 @@
 
 <style>
     body {
-        background-color: #ADD8E6; /* Xanh biển nhạt */
-        text-align: center;
-        font-family: Arial, sans-serif;
+        font-family: "Poppins", sans-serif;
+    	background-color: #f0f0f0;
+    	text-align: center;
+    	font-weight: 300;
+    	font-size: 15px;
+    	color: black;
     }
 
     h1, h2 {
@@ -36,16 +39,25 @@
     }
 
     input[type="submit"] {
-        background-color: #007FFF; /* Xanh biển sâu */
-        color: #FFF;
-        border: none;
-        border-radius: 4px;
-        padding: 10px 20px;
-        cursor: pointer;
+        background-color: #ffeba7;
+    	color: #102770;
+    	height: 44px;
+    	border: none;
+    	border-radius: 4px;
+    	padding: 0px 30px;
+    	cursor: pointer;
+    	margin-right: 5px;
+    	letter-spacing: 1px;
+    	display: inline-flex;
+    	justify-content: center;
+    	text-align: center;
+    	box-shadow: 0 8px 24px 0 rgba(255, 235, 167, 0.2);
     }
 
     input[type="submit"]:hover {
-        background-color: #0056b3; /* Xanh biển đậm khi di chuột vào */
+        background-color: #102770;
+    	color: #ffeba7;
+    	box-shadow: 0 8px 24px 0 rgb(16, 39, 112, 0.2);
     }
 </style>
 
@@ -55,8 +67,8 @@
     <h2>login here</h2>
 
 	<form action="login" method="post">
-		Tên đăng nhập:  <br><input type="text" name="username"><br>
-		Mật khẩu: <br> <input type="password" name="password"><br> <input
+		USERNAME:  <br><input type="text" name="username"><br>
+		PASSWORD: <br> <input type="password" name="password"><br> <input
 			type="submit" value="Đăng nhập">
 	</form>
 </body>

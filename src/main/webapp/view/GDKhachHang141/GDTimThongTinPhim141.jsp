@@ -20,6 +20,10 @@
 		<input type="hidden" name="username" value="<%=request.getParameter("username")%>">
 		<input type="submit" value="Tìm kiếm">
 	</form>
-	<a href="custumer.jsp?username=<%=request.getParameter("username")%>">Quay lại </a>
+	<form action="backpagetrangchu" method="post">
+		<button>Quay lại</button>
+		<input type="hidden" name="username"
+			value="<%=request.getParameter("username")%>">
+	</form>
 </body>
 </html>

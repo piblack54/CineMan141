@@ -18,5 +18,15 @@
         <p>Mô tả: ${phim.description}</p>
         <!-- Thêm các thông tin khác tương tự -->
     </c:if>
+    <form action="backpagetrangchu" method="post">
+		<button>Quay lại trang giao diện chính khách hàng</button>
+		<input type="hidden" name="username"
+			value="<%=request.getParameter("username")%>">
+	</form>
+	<form action="backpageThongtinphim" method="post">
+		<button>Quay lại</button>
+		<input type="hidden" name="username"
+			value="<%=request.getParameter("username")%>">
+	</form>
 </body>
 </html>

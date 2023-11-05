@@ -51,5 +51,10 @@
 
 		</tbody>
 	</table>
+	<form action="backpagetrangTimkiemphim" method="post">
+		<button>Quay lại</button>
+		<input type="hidden" name="username"
+			value="<%=request.getParameter("username")%>">
+	</form>
 </body>
 </html>

@@ -20,5 +20,11 @@
 		<input type="hidden" name="username"
 			value="<%=request.getParameter("username")%>">
 	</form>
+	
+	<form action="back" method="post">
+		<button>Quay lại</button>
+		<input type="hidden" name="username"
+			value="<%=request.getParameter("username")%>">
+	</form>
 </body>
 </html>
